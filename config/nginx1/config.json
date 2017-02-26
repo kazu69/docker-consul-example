@@ -1,0 +1,11 @@
+{
+  "node_name": "nginx1",
+  "data_dir": "/opt/consul",
+  "log_level": "INFO",
+  "enable_debug": true,
+  "retry_join": [
+    "172.16.238.10",
+    "172.16.238.11",
+    "172.16.238.12"
+  ]
+}

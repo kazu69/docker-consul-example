@@ -1,0 +1,10 @@
+#/bin/bash
+
+CHECK_ID=$1
+
+while true; do
+  echo 'connect..';
+  curl http://localhost:8500/v1/agent/check/pass/${CHECK_ID};
+  echo 'waiting..';
+  sleep 30;
+done

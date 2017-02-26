@@ -1,0 +1,21 @@
+{
+"checks": [
+    {
+      "name": "HTTP Nginx on port 80",
+      "http": "http://localhost:80",
+      "interval": "10s",
+      "timeout": "1s"
+    },
+    {
+      "id": "nginx1",
+      "name": "Nginx Status",
+      "ttl": "30s"
+    },
+    {
+      "name": "SSH TCP on port 80",
+      "tcp": "172.16.238.13:80",
+      "interval": "10s",
+      "timeout": "1s"
+    }
+  ]
+}

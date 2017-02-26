@@ -1,0 +1,8 @@
+{
+  "service": {
+    "name": "proxy",
+    "tags": ["nginx"],
+    "address": "172.16.238.14",
+    "port": 80
+  }
+}
